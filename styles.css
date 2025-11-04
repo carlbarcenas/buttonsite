@@ -1,0 +1,53 @@
+.body-container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background: #23DB29;
+    background: linear-gradient(90deg,rgba(35, 219, 41, 1) 0%, rgba(253, 187, 45, 1) 100%);
+
+    padding: 60px 60px;
+    outline: none; /* Removes the focus outline */
+    border: none; /* Removes any default border */
+    box-shadow: none; /* Removes any box shadow */
+    border-radius: 48px;
+    /* filter: blur(1px); */
+
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+
+    transition: all 1.5s ease;
+    cursor: pointer;
+
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+button:hover {
+    filter: none;
+    /*background-color: black;
+    color: white;*/
+    transition: all 0.5s ease;
+    border-radius: 10% 70% 10% 70%;
+    background: #23db29;
+    background: linear-gradient(90deg, rgba(35, 219, 41, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
+#active {
+    filter: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-decoration-color: rgb(0, 0, 0);
+    text-underline-offset: 0.4em;
+    padding: 0 20px 0 20px;
+    font-style: oblique;
+
+    
+
+    transition: all 0.5s linear;
+}
