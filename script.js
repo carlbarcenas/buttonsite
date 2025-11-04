@@ -1,4 +1,5 @@
 const button = document.querySelector('button');
+const body = document.querySelector('');
 
 button.addEventListener("click", () => {
     button.setAttribute("id", "active");
