@@ -1,3 +1,8 @@
+* {
+    font-family: "JetBrains Mono";
+    color: white;
+}
+
 .body-container {
     display: flex;
     justify-content: center;
@@ -32,6 +37,7 @@ button:hover {
     filter: none;
     /*background-color: black;
     color: white;*/
+    font-size: 24px;
     transition: all 0.5s ease;
     border-radius: 10% 70% 10% 70%;
     background: #23db29;
@@ -40,14 +46,11 @@ button:hover {
 
 #active {
     filter: none;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    text-decoration-color: rgb(0, 0, 0);
-    text-underline-offset: 0.4em;
-    padding: 0 20px 0 20px;
-    font-style: oblique;
-
-    
-
-    transition: all 0.5s linear;
+    /*background-color: black;
+    color: white;*/
+    font-size: 24px;
+    transition: all 0.5s ease;
+    border-radius: 10% 70% 10% 70%;
+    background: #23db29;
+    background: linear-gradient(90deg, rgba(35, 219, 41, 1) 0%, rgba(253, 187, 45, 1) 100%);
 }
